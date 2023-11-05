@@ -78,13 +78,12 @@ variable "net_address" {
 variable "user" {
   description = "Name for the default user account"
   type        = string
-  default     = "user"
+  default     = null
 }
 
 variable "password" {
   description = "Password for the default user account"
   type        = string
-  default     = null
 }
 
 # Provisioning (If Needed)
