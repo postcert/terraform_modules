@@ -84,6 +84,7 @@ variable "user" {
 variable "password" {
   description = "Password for the default user account"
   type        = string
+  default     = null
 }
 
 # Provisioning (If Needed)
